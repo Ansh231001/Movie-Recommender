@@ -64,7 +64,7 @@
 <h3>Pre-Requisites</h3>
 <ul>
         <li>
-            Install Flask using pip
+            Install the requirements
         </li>
         <li>
             Get the PKL files from <a href="https://drive.google.com/drive/folders/17PRpnE3fm0T-IPKFFhkcdKPQiwELrWmw?usp=sharing">here</a>
@@ -106,7 +106,7 @@
  <h3>
   Installation
  </h3>
- pip install flask
+ pip install requirements.txt
 
 <br>
 <h3>
