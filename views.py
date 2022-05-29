@@ -38,6 +38,8 @@ def index():
         elif len(req) == 0 and len(req2) != 0:
             Filter = genreFilter(req2)
             setFilters(Filter)
+            if(setFil == [[] , []]):
+                return render_template('public/index.html', collections=setRec[0] if setRec else [], p1=setRec[1] if setRec else [], movies=results[0], p2=results[1], interests=setInt[0] if setInt else [], p3=setInt[1] if setInt else [], btngrp=genres,  filtered=["No data found"], p4=setFil[1])
             return render_template('public/index.html', collections=setRec[0] if setRec else [], p1=setRec[1] if setRec else [], movies=results[0], p2=results[1], interests=setInt[0] if setInt else [], p3=setInt[1] if setInt else [], btngrp=genres,  filtered=setFil[0], p4=setFil[1])
 
         ##IF SERACH IS PROVIDED
