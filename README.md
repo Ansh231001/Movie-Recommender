@@ -106,14 +106,13 @@
  <h3>
   Installation
  </h3>
+ $ source env/Scripts/activate <br>
  pip install requirements.txt
 
 <br>
 <h3>
 Run with Bash
 </h3>
-$ source env/Scripts/activate
-<br>
 $ export FLASK_APP=run.py
 <br>
 $ export FLASK_ENV=development
