@@ -42,6 +42,21 @@
     <a href="https://drive.google.com/drive/folders/17PRpnE3fm0T-IPKFFhkcdKPQiwELrWmw?usp=sharing">LINK</a>
 </p>
 
+<h3>Additional Features</h3>
+<ul>
+    <li>
+        Top Grosing Movies from around the world.
+    </li>
+    <li>
+        Catered content based on search 
+    </li>
+    <li>
+        Genre Filters
+    </li>
+</ul>
+
+<h2>Instructions</h2>
+
 <h3>Pre-Requisites</h3>
 <ul>
         <li>
