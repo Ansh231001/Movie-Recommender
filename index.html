@@ -28,7 +28,10 @@
 
 
 <!-- FILTER SECTION SHOWN ONLY WHEN FILTERS ARE USED -->
-{% if filtered %}
+{% if filtered|length == 1 %}
+<h1 style="margin:2%;">No data Found</h1>
+{% endif %}
+{% if filtered|length > 1 %}
 <section class='filters_section' style="margin: 2%">
   <h3>Filtered Content</h3>
   <div class="owl-carousel owl-theme" id="filters">
