@@ -34,13 +34,26 @@
 <p>
     Movie Recommendation Engine made for PS: 3 intrigued my interest in learning about Machine Learning and Data
     Management. So, I came up with my version of a search and recommendation engine implemented on many multiplatform
-    streaming services such as Netflix,Amazon Prime and Spotify. Based on the K nearest neighbours algorithm, it finds
+    streaming services such as Netflix,Amazon Prime and Spotify. Based on the <a href="https://www.geeksforgeeks.org/k-nearest-neighbours/">K nearest neighbours algorithm</a> and <a href="https://www.geeksforgeeks.org/timsort/">Timsort</a> , it finds
     similarities
-    using the cosine values of the movie vectors created with the help of the tags. Cosine similarity
-    is better over a larger dataset than Euclidean Distance or Manhattan Distance. With the use of stemming, duplicated
+    using the cosine values of the movie vectors created with the help of the tags. <a href="https://www.geeksforgeeks.org/cosine-similarity/">Cosine similarity</a> 
+    is better over a larger dataset than Euclidean Distance or Manhattan Distance. With the use of <a href="https://www.geeksforgeeks.org/introduction-to-stemming/">stemming</a> , duplicated
     words were removed. The final dataset is provided in this drive link.
     <a href="https://drive.google.com/drive/folders/17PRpnE3fm0T-IPKFFhkcdKPQiwELrWmw?usp=sharing">LINK</a>
 </p>
+
+<h3>Pre-Requisites</h3>
+<ul>
+        <li>
+            Install Flask using pip
+        </li>
+        <li>
+            Get the PKL files from <a href="https://drive.google.com/drive/folders/17PRpnE3fm0T-IPKFFhkcdKPQiwELrWmw?usp=sharing">here</a>
+        </li>
+        <li>
+            Follow the file structure to place the files.
+        </li>  
+</ul>
 
 <h3>
     File Structure
@@ -88,6 +101,16 @@ $ export FLASK_ENV=development
 <br>
 $ flask run
 <br>
+<br>
+Note: The Engine.ipynb file contains the data modeling(not to be included in the main app).
 
-
-
+<br>
+<h3>References</h3>
+<ul>
+    <li>
+        <a href="https://amt-lab.org/blog/2021/8/algorithms-in-streaming-services">Amt-Lab</a>
+    </li>
+    <li>
+        <a href="https://drive.google.com/file/d/1J_I1SJhrfjwj8wHaNElozpnt1UKYsBM-/view?usp=sharing">Using Content Based Filtering</a>
+    </li>
+</ul>
